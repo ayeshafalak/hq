@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|open+Sans');
+
+
+*{
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.vmp{
+  display: flex;
+ 
+ justify-content: center;
+
+  width: auto;
+
+  text-align: center;
+
+  flex-wrap: wrap;
+ margin-top: -5%;
+ 
+
+}
+
+
+.vmp .member{
+
+  background:#f1f1f1;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
+  margin: 7px;
+
+  margin-bottom: 20px;
+ 
+ width: 300px;
+
+  padding: 20px;
+
+  line-height: 20px;
+
+  
+  
+  position: relative;
+
+  margin-top: 10px;
+
+}
+
+
+.vmp .member h3{
+ 
+ color:#0069a8;
+
+  font-size: 26px;
+
+  margin-top: 10px;
+
+}
+
+.vmp .member .p
+{
+				color:black;}
