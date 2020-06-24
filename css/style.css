@@ -2,7 +2,7 @@
 
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
-  font-family:'Raleway';
+  font-family:'Merienda';
   background-color:#f4f4f4;
 }
 html, body { width: 100%; height: auto; margin: 0px; padding: 0px; overflow-x: hidden; }
@@ -475,7 +475,7 @@ footer{
     margin-top:5px;
     font-size:30px;
   }
-  .about h1, .contactus h1, .services h1, .gallery h1 #events h1{font-size:32px;}
+  .about h1, .contactus h1, .services h1, .gallery h1, .events h1{font-size:32px;}
   .services h3{font-size:23px;}
   .contactus h5{font-size:16px;}
   
