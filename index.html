@@ -68,7 +68,7 @@
       </div>
     </section>
     
-    <section class="about page-section" id="about">
+    <section class="about" id="about">
 								<div class="container-fluid" >
 								
 												<h1 data-aos="fade-in"><strong>About Us</strong></h1>
@@ -128,7 +128,7 @@ Every day we rise with an aim to help the needy and eradicate the paucity of our
 
     </section>
     
-    <section class="services page-section" id="services">
+    <section class="services" id="services">
 							 <div class="container-fluid">
 												<h1><strong> Our Services </strong>
 												</h1><br><br><br>
@@ -163,7 +163,7 @@ Every day we rise with an aim to help the needy and eradicate the paucity of our
 								</div>
     </section>
     
-<section id="events" class="events page-section">
+<section id="events" class="events">
 <div class="container">
 		<h1 data-aos="fade-in" ><strong>Events</strong></h1><br><br>
 			
@@ -270,7 +270,7 @@ We celebrate our special days by taking deprived children to places like Mac Don
 </div></div>
 </section>
     
-					<section class="contactus page-section" id="contactus">
+					<section class="contactus" id="contactus">
 					  <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h1 class="w3-center"><strong>Contact Us</strong></h1>
@@ -388,41 +388,8 @@ for (var i = 0; i < navitems.length; i++) {
   });
 }
 </script>
-	<script>
-$(document).ready(function() {
-		$('a[href*=#]').bind('click', function(e) {
-				e.preventDefault(); // prevent hard jump, the default behavior
-
-				var target = $(this).attr("href"); // Set the target as variable
-
-				// perform animated scrolling by getting top-position of target-element and set it as scroll target
-				$('html, body').stop().animate({
-						scrollTop: $(target).offset().top
-				}, 600, function() {
-						location.hash = target; //attach the hash (#jumptarget) to the pageurl
-				});
-
-				return false;
-		});
-});
-$(window).scroll(function() {
-		var scrollDistance = $(window).scrollTop();
-
-		// Show/hide menu on scroll
-		//if (scrollDistance >= 850) {
-		//		$('nav').fadeIn("fast");
-		//} else {
-		//		$('nav').fadeOut("fast");
-		//}
 	
-		// Assign active class to nav links while scolling
-		$('.page-section').each(function(i) {
-				if ($(this).position().top <= scrollDistance) {
-						$('.nav a.active').removeClass('active');
-						$('.nav a').eq(i).addClass('active');
-				}
-		});
-}).scroll();
-</script>
+
+
   </body>
 </html>
