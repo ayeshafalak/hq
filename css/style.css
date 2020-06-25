@@ -78,6 +78,10 @@ z-index:0;
 		
 .w3-top a
 {text-decoration:blink;}
+
+.active
+{font-weight:bold; background-color:blue;}
+	
 /* Showcase */
 .showcase{
   min-height:400px;
